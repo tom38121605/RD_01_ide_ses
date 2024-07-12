@@ -1,10 +1,10 @@
 
 
-注意：在ommo的nrf52的工程中， “project \options\code\Linker\linker: ” 项要设置成GNU (而不是SEGGER)
+注意：在ommo的nrf52的工程中， “project \options\code\Linker\linker: ” 项要设置成GNU (而不是SEGGER)   //release
 
 ----  SES中烧录步骤 --------------
 
-  。ses修改hex烧录地址： 右键单击 project \options \ 左上角的下拉选Common（code上面）\code \linker \section placement macros \FLASH_START \设为0x00
+  。ses修改hex烧录起始地址： 右键单击 project \options \ 左上角的下拉选Common（code上面）\code \linker \section placement macros \FLASH_START \设为0x00
 
   。设置jlink烧录: 右键单击 project \options\code
      .\Linker\linker:                                              SEGGER
@@ -21,7 +21,12 @@
 
 
   。选择release编译： 
-     右键单击 project \options \ 左上角的下拉选release（code上面）\菜单build\build solution
+     右键单击 project \options \ 左上角的下拉选release（code上面） 
+     菜单build\build solution
+
+
+   。烧录
+      点击右上角的右向三角形（start excution）
 
 
 编译时间： 大约2分10秒
