@@ -29,5 +29,22 @@
       点击右上角的右向三角形（start excution）
 
 
+----------- ommo 的nrf52工程的编译 ----------
+
+1. 问题：缺少 git_describe.h 文件
+#include "git_describe.h"      //这里     utilis.cpp
+
+分析： 在main分支中，这个文件会由 flash_files/build.py 自动生成
+          在develop分支中，  flash_files/generate_protobuf.bat, 可产生git_describe.h 文件  （它还有一个功能： 好像是下载一个.proto的文件到wokspace目录）
+解决： 在ommo_nrf\ flash_files目录下面，有一个 generate_protobuf_lib.bat的文件，双击运行，即可产生git_describe.h文件，ok  （待验证）
+
+
+
+
+
+
+
+
+
 编译时间： 大约2分10秒
 
