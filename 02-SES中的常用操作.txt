@@ -1,0 +1,10 @@
+
+
+
+1. bookmark 的使用
+    。在菜单的右边空白处  -- 右键  -- bookmarks  -- 跳出bookmark的操作界面  -- 然后就跟keil中一样的操作了
+
+
+
+
+
