@@ -2,9 +2,23 @@
 
 1. SES 不能同时安装多个版本
 
+2  ses修改hex烧录起始地址： 
+    。右键单击 project \options \ 左上角的下拉选Common（code上面）\code \linker \section placement macros \
+    。FLASH_START \设为0x00
 
-2. bookmark 的使用
+3. bookmark 的使用
     。在菜单的右边空白处  -- 右键  -- bookmarks  -- 跳出bookmark的操作界面  -- 然后就跟keil中一样的操作了
+
+
+4.  ses在魔法棒中定义常量 
+    。右键单击 project \options \ 左上角的下拉选Common（code上面）\code \preprocessor \preprocessor definitions \
+    。NRF21540_DRIVER_ENABL \设为1
+
+
+
+
+
+
 
 
 
