@@ -9,6 +9,9 @@
 3. bookmark 的使用
     。在菜单的右边空白处  -- 右键  -- bookmarks  -- 跳出bookmark的操作界面  -- 然后就跟keil中一样的操作了
 
+3. 显示main文件里面的函数列表
+    。在菜单的右边空白处  -- 右键  -- code outline  -- 跳出界面  -- 把它放在右边，和bookmak并在一起
+
 
 4.  ses在魔法棒中定义常量 
     。右键单击 project \options \ 左上角的下拉选Common（code上面）\code \preprocessor \preprocessor definitions \
