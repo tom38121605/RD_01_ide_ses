@@ -7,6 +7,11 @@
     。FLASH_START \设为0x00
 
 3. bookmark 的使用
+
+    方法一：  （推荐）
+    。菜单view  --  靠近最下面的toolbar  -- 勾选“text edit”
+
+    方法二：
     。在菜单的右边空白处  -- 右键  -- bookmarks  -- 跳出bookmark的操作界面  -- 然后就跟keil中一样的操作了
 
 3. 显示main文件里面的函数列表
@@ -16,6 +21,21 @@
 4.  ses在魔法棒中定义常量 
     。右键单击 project \options \ 左上角的下拉选Common（code上面）\code \preprocessor \preprocessor definitions \
     。NRF21540_DRIVER_ENABL \设为1
+
+5. 调出缩进工具条按钮
+    。菜单view  --  靠近最下面的toolbar  -- 勾选“text edit”
+
+6. 调试的时候调出watch（眼镜）
+    。菜单view  --  靠近中下面的watch -- watch1
+
+
+7. 把保存时，tab转换为空格
+    。菜单 tool -- option --  text editor  -- save  -- tab cleanup on save  --  下拉列表中选择 “change tabs to spaces”
+
+7. 设置tab 对应的空格数   （待继续）
+
+
+
 
 
 
