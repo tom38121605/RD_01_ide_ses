@@ -32,8 +32,12 @@
 7. 把保存时，tab转换为空格
     。菜单 tool -- option --  text editor  -- save  -- tab cleanup on save  --  下拉列表中选择 “change tabs to spaces”
 
-7. 设置tab 对应的空格数   （待继续）
+7. 设置tab 对应的空格数__   （待继续）
 
+
+8. 添加include目录
+    。魔法棒 \ 左上角的下拉选Common\code \preprocessor \user include directories\ 点击右边的三个点按钮\然后添加include目录
+    。注意： 这里的include目录只能象文本文件一样编辑，不能去选择目录
 
 
 
