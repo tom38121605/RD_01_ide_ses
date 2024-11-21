@@ -39,6 +39,15 @@
     。魔法棒 \ 左上角的下拉选Common\code \preprocessor \user include directories\ 点击右边的三个点按钮\然后添加include目录
     。注意： 这里的include目录只能象文本文件一样编辑，不能去选择目录
 
+9. 启动编译时，编译前运行一个bat文件
+    。右键单击 project \options \ 左上角的下拉选Common \code \user build step \
+         。pre-build command \选择要运行的bat文件
+         。pre-build command control -- 选择 always run
+
+
+
+
+
 
 
 
