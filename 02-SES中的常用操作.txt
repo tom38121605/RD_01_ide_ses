@@ -44,7 +44,10 @@
          。pre-build command \选择要运行的bat文件
          。pre-build command control -- 选择 always run
 
-
+10. 把散掉的搜索框，再docking回到原来的output框上
+     。鼠标左键点击搜索框上的望远镜图标
+     。拖拽搜索框左右移动，直到点亮output的整个框
+     。再放开鼠标左键，ok
 
 
 
