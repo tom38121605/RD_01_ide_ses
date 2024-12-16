@@ -58,8 +58,8 @@
        。等待10秒左右
 
 
-
-
+13.问题： 在“find in files...“ 按”entire solution“ 全文查找app_timer_init定义时， app_timer_init的定义在timer2.c中。右键直接跳转app_timer_init定义时，该定义在timer1.c中.
+答： 因timer1.c 和 timer2.c 共用同一个timer1.h的头文件， 则以导入的.c文件为准；目前导入的timer2.c，所以就使用timer2.c中的app_timer_init定义
 
 
 
