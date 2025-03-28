@@ -25,11 +25,8 @@
 5. 调出缩进工具条按钮
     。菜单view  --  靠近最下面的toolbar  -- 勾选“text edit”
 
-6. 调试的时候调出watch（眼镜）
-    。菜单view  --  靠近中下面的watch -- watch1
 
-
-7. 把保存时，tab转换为空格
+6. 把保存时，tab转换为空格
     。菜单 tool -- option --  text editor  -- save  -- tab cleanup on save  --  下拉列表中选择 “change tabs to spaces”
 
 7. 设置tab 对应的空格数__   （待继续）
@@ -62,10 +59,7 @@
 答： 因timer1.c 和 timer2.c 共用同一个timer1.h的头文件， 则以导入的.c文件为准；目前导入的timer2.c，所以就使用timer2.c中的app_timer_init定义
 
 
-14.  单步调试中，把字符数组buf列表的所有值拷贝出来
-      。先用眼镜取得buf列表的值
-      。点开buf列表的值
-      。在右上角眼镜下面的齿轮的左边，点击工具按钮“export to text editor"
+
 
 补充： 有时在眼镜下面看不到齿轮，则需要把眼睛下面的列表想左拉宽一些，就显示出来了，ok
 
